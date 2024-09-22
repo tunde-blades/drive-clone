@@ -290,8 +290,8 @@ p{
     overflow: hidden;
 }
 .findsect p{
+    margin-top: 15px;
     padding: 0 20px;
-    /* min-width: 70vw; */
     max-width: 600px;
 }
 
