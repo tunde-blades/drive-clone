@@ -169,8 +169,8 @@ p{
     align-items: center;
     justify-content: center;
     position: relative;
-    left: -30px;
-    gap: 1em;
+    left: -25px;
+    gap: 2em;
     width: 70vw;
     max-width: 80vw;
 }
