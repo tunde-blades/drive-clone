@@ -26,7 +26,7 @@ p{
 
 }
 .headtag{
-    width:100vw;
+    width:98vw;
     position: fixed;
     height: 60px; 
     background-color: white;
@@ -52,7 +52,7 @@ p{
     position: absolute;
     /* top: 30px; */
     background-color: white;
-    width: 100vw;
+    width: 98vw;
     height: 40vh;
 }
 
@@ -84,7 +84,7 @@ p{
     flex-direction: column;
     gap: 30px;
     margin-bottom: 40px;
-    min-width: 300px;
+    /* min-width: 300px; */
     max-width: 550px;
     z-index: 50;
 }
@@ -97,7 +97,7 @@ p{
     padding: 0;
 }
 .intro button{
-    width: 300px;
+    max-width: 300px;
     padding: 15px;
     border-radius: 10px;
     background-color: steelblue;
@@ -115,9 +115,10 @@ p{
     z-index: 100;
 }
 .prog b{
-    font-size: 20px;
+    font-size: 15px;
 }
 .prog p{
+    font-size: .7em;
     padding: 0;
 }
 .prog hr{
@@ -149,6 +150,7 @@ p{
 .section2 .feathead h2{
     font-size: 35px;
     padding-bottom: 10px;
+    text-align: center;
 
 }
 
@@ -157,7 +159,7 @@ p{
     font-size: 17px;
     text-align: center;
     padding: 0 20px;
-    min-width: 400px;
+    /* min-width: 400px; */
     max-width: 600px;
 }
 
@@ -165,27 +167,28 @@ p{
     display: flex;
     text-align: center;
     align-items: center;
+    justify-content: center;
     position: relative;
-    left: 50%;
-    transform: translate(-50%);
-    justify-content: space-evenly;
-    width: 94vw;
+    left: -30px;
+    gap: 1em;
+    width: 70vw;
+    max-width: 80vw;
 }
 .section2 .featicons img{
-    width: 65px;
+    width: 3em;
 }
+
 .section2 li h4{
-    width: 100px;
-    font-size: 22px;
+    max-width: 300px;
+    font-size: 1em;
     font-weight: 400;
     padding: 8px 0;
     
 
 }
 .section2 .featicons p{
-    width: 110px;
-    max-width: 300px;
-    font-size: 11px;
+    max-width: 160px;
+    font-size: .7em;
     color: grey;
     padding: 0;
 }
@@ -212,6 +215,7 @@ p{
 .aboutus1 p{
     color: gray;
     padding: 0;
+    max-width:80vw;
 }
 
 .carsect{
@@ -219,15 +223,20 @@ p{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: start;
+    justify-content: center;
     height: 500px;
+    max-width: 80vw;
 }
 .maincar{
     position: relative;
+    left: 50%;
+    transform: translate(-36.5%);
+    max-width: 280px;
     
 }
 .subcar{
     position: absolute;
+    left:23%;
     rotate: 90deg;
     bottom: -20px;
     border-radius: 20px;
@@ -247,7 +256,7 @@ p{
 .aboutus2 p{
     padding: 20px;
     padding: 0 20px;
-    min-width: 400px;
+    /* min-width: 70vw; */
     max-width: 600px;
 }
 .customer{
@@ -282,7 +291,7 @@ p{
 }
 .findsect p{
     padding: 0 20px;
-    min-width: 400px;
+    /* min-width: 70vw; */
     max-width: 600px;
 }
 
@@ -305,7 +314,7 @@ p{
     justify-content: space-between;
     align-items: flex-start;
     gap: 20px;
-    width: 300px;
+    /* width: 300px; */
     max-width: 300px;
     
 }
@@ -399,14 +408,21 @@ p{
     border-radius: 10px;
 }
 .faqsect{
-    overflow: hidden;
+    /* overflow: hidden; */
+    position: relative;
+    left: -30px;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    width: 90vw;
     gap: 20px;
 }
 .faqsect ul{
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
     gap: 20px;
 }
 .faqsect li{
@@ -414,9 +430,9 @@ p{
     display: flex;
     flex-direction: column;
     gap: 10px;
-    padding: 30px;
-    max-width: 70vw;
-    border: 2px red;
+    padding:30px;
+    margin: 0;
+    /* max-width: 70vw; */
     border-radius: 10px;
     
 
@@ -427,7 +443,7 @@ p{
     gap: 15px;
 }
 .faqsect p{
-    min-width: 65vw;
+    /* min-width: 65vw; */
     font-size: 15px;
     display: none;
     background-color: white;
