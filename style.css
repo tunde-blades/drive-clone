@@ -1,5 +1,6 @@
 *{
     list-style: none;
+    text-decoration: none;
     margin: 0;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -449,6 +450,26 @@ p{
     background-color: white;
     padding: 20px;
     border-radius: 10px;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.social{
+    display: flex;
+    margin: 10px 0;
+    gap: 20px;
+}
+.footerMenu{
+    display: flex;
+    line-height: 30px;
+    
+}
+
+.footerMenu h4{
+    font-size: 18px;
+    font-weight: bold;
 }
 
 
